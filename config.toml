@@ -54,10 +54,6 @@ svg = ""
 name = "linkedin"
 url = "https://www.linkedin.com/in/tiennvuit"
 svg = ""
-[[params.social]]
-name = "email"
-url = "tiennvcs@gmail.com"
-svg = ""
 
 
 # Menu.main is an array that's used to decide what entries can be shown
