@@ -1,20 +1,22 @@
 baseURL = "https://thinklikecomputerscientist.github.io/"
-languageCode = "en-us"
-title = "Think like computer scientist"
-paginate = 10
+languageCode = "en-us-vi"
+title = "Think like Computer Scientist"
+paginate = 5
 googleAnalytics = ""
 disqusShortname = "hugo-minima"
 theme = "minima"
 
+# Author has some of your information to be shown on the home 
+# page of your blog.
 [author]
 name = "Tien Nguyen"
-slogon = "Knowing is not enough, we must apply. Willing is not engough, we must do."
-description = "Sharing is learning 😁"
+slogon = "Knowing is not enough, we must apply. Willing is not enough, we must do."
+description = "I write this blog aim to sharing my knowledge about Programming, Math, Machine learning under point of view of Computer Science student."
 
 
 [params]
 # iam is the beginning words of your self-introduction.
-iam = "I am"
+iam = "Hi, I'm"
 # The subtitle will be shown after the title of your blog site
 #  in a format like "title - subtitle".
 subtitle = ""
@@ -52,29 +54,33 @@ svg = ""
 name = "linkedin"
 url = "https://www.linkedin.com/in/tiennvuit"
 svg = ""
+[[params.social]]
+name = "email"
+url = "tiennvcs@gmail.com"
+svg = ""
 
 
 # Menu.main is an array that's used to decide what entries can be shown
 # on the navigator of yur blog. You can use a weight to make them ordered.
 [[menu.main]]
 name = "Home"
-url = ["/home", "/"]
+url = "/"
 weight = 1
 [[menu.main]]
 name = "DSA"
-url = "/categories"
+url = "/dsa"
 weight = 2
-[[menu.main]]
-name = "Python"
-url = "/python"
-weight = 3
 [[menu.main]]
 name = "MA4ML"
 url = "/ma4ml"
+weight = 3
+[[menu.main]]
+name = "Machine learning"
+url = "/ml"
 weight = 4
 [[menu.main]]
-name = "Machine Learning"
-url = "/ml"
+name = "Computer vision"
+url = "/cv"
 weight = 5
 [[menu.main]]
 name = "About"
@@ -82,18 +88,14 @@ url = "/about"
 weight = 6
 
 
-# You can classify your posts by setting taxanomies in the front matter like
-# categories = ["apple", "banana"]
-# series = ["s1", "s2"]
-# tags = ["t1", "t2"]
-# A little suggestion: one post belongs to one series, one category and multiple tags.
 [taxonomies]
-category = ["Data structure and algorithm", "Python", "Math for machine learning", "Machine learning",]
-tag = ["Data structure and algorithm", "Python", "Math for machine learning", "Machine learning",]
+# category = ["DSA", "MA4ML", "Machine learning", "Computer vision"]
+# tag = ["Data structure and algorithm", "Math for Machine learning", "Machine learning", "Computer Vision"]
+# series = "series"
+category = "categories"
+tag = "tags"
+series = "series"
 
-
-# Make sure all the codes in a post are highlighted correctly
-# so better not edit this.
 [markup.highlight]
 lineNos = true
 noClasses = false
