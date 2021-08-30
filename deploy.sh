@@ -1,3 +1,6 @@
+# Generate change into public
+hugo
+
 # Commmit in production 
 cd ./public
 git add .
