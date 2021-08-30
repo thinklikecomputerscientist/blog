@@ -59,27 +59,27 @@ svg = ""
 # Menu.main is an array that's used to decide what entries can be shown
 # on the navigator of yur blog. You can use a weight to make them ordered.
 [[menu.main]]
-name = "Home"
+name = "🏠Home"
 url = "/"
 weight = 1
 [[menu.main]]
-name = "DSA"
+name = "🐅DSA"
 url = "/dsa"
 weight = 2
 [[menu.main]]
-name = "MA4ML"
+name = "🐴MA4ML"
 url = "/ma4ml"
 weight = 3
 [[menu.main]]
-name = "Machine learning"
+name = "🐄Machine learning"
 url = "/ml"
 weight = 4
 [[menu.main]]
-name = "Computer vision"
+name = "🐇Computer vision"
 url = "/cv"
 weight = 5
 [[menu.main]]
-name = "About"
+name = "🐉About"
 url = "/about"
 weight = 6
 
