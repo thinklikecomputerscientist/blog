@@ -1,22 +1,15 @@
 baseURL = "https://thinklikecomputerscientist.github.io/"
 languageCode = "en-us"
 title = "Think like computer scientist"
-copyright = "© Copyright notice"
-paginate = 5
+paginate = 10
 googleAnalytics = ""
 disqusShortname = "hugo-minima"
-
-# theme is the name of the hugo theme you choose,
-# `hugo-theme-minima` is put here only for debuging,
-# just name it whatever you're gonna handle the theme.
 theme = "minima"
 
-# Author has some of your information to be shown on the home 
-# page of your blog.
 [author]
-name = "XJJ"
-slogon = "A student from Earth 🌍"
-description = "Hello 😁"
+name = "Tien Nguyen"
+slogon = "Knowing is not enough, we must apply. Willing is not engough, we must do."
+description = "Sharing is learning 😁"
 
 
 [params]
@@ -65,20 +58,28 @@ svg = ""
 # on the navigator of yur blog. You can use a weight to make them ordered.
 [[menu.main]]
 name = "Home"
-url = "/"
+url = ["/home", "/"]
 weight = 1
 [[menu.main]]
-name = "Categories"
+name = "DSA"
 url = "/categories"
 weight = 2
 [[menu.main]]
-name = "Series"
-url = "/series"
+name = "Python"
+url = "/python"
 weight = 3
+[[menu.main]]
+name = "MA4ML"
+url = "/ma4ml"
+weight = 4
+[[menu.main]]
+name = "Machine Learning"
+url = "/ml"
+weight = 5
 [[menu.main]]
 name = "About"
 url = "/about"
-weight = 4
+weight = 6
 
 
 # You can classify your posts by setting taxanomies in the front matter like
@@ -87,9 +88,8 @@ weight = 4
 # tags = ["t1", "t2"]
 # A little suggestion: one post belongs to one series, one category and multiple tags.
 [taxonomies]
-category = ["ML", "MA4ML"]
-tag = "tags"
-series = "series"
+category = ["Data structure and algorithm", "Python", "Math for machine learning", "Machine learning",]
+tag = ["Data structure and algorithm", "Python", "Math for machine learning", "Machine learning",]
 
 
 # Make sure all the codes in a post are highlighted correctly
