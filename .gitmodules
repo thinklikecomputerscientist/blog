@@ -1,0 +1,7 @@
+[submodule "themes/minima"]
+	path = themes/minima
+	url = https://github.com/mivinci/hugo-theme-minima.git
+[submodule "public"]
+	path = public
+	url = https://github.com/thinklikecomputerscientist/thinklikecomputerscientist.github.io
+	branch = main
